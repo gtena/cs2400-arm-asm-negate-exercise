@@ -1,0 +1,6 @@
+Question 1. UAL stands for Universal Assembly Language
+Question 2. The short program is changing the array in the memory, while the long version is changing it in the stack
+Question 3. In the longer version, the array is created on the stack. The compiler generated generic code based off 
+            general arm assembly.
+Question 4. You can use malloc to allocate memory on the heap and use pointers to change the values,
+            or it might be possible to assign the array as a global variable.
